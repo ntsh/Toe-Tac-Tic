@@ -7,20 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1705C8B16AA7C5E0008AF5F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1705C8A16AA7C5E0008AF5F /* QuartzCore.framework */; };
 		B19D4F3F16A30DB100AFCC3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19D4F3E16A30DB100AFCC3A /* UIKit.framework */; };
 		B19D4F4116A30DB100AFCC3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19D4F4016A30DB100AFCC3A /* Foundation.framework */; };
 		B19D4F4316A30DB100AFCC3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19D4F4216A30DB100AFCC3A /* CoreGraphics.framework */; };
 		B19D4F4916A30DB100AFCC3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B19D4F4716A30DB100AFCC3A /* InfoPlist.strings */; };
 		B19D4F4B16A30DB100AFCC3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B19D4F4A16A30DB100AFCC3A /* main.m */; };
 		B19D4F4F16A30DB100AFCC3A /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19D4F4E16A30DB100AFCC3A /* NGAppDelegate.m */; };
-		B19D4F5116A30DB100AFCC3A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B19D4F5016A30DB100AFCC3A /* Default.png */; };
-		B19D4F5316A30DB100AFCC3A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B19D4F5216A30DB100AFCC3A /* Default@2x.png */; };
-		B19D4F5516A30DB100AFCC3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B19D4F5416A30DB100AFCC3A /* Default-568h@2x.png */; };
-		B19D4F5816A30DB100AFCC3A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19D4F5616A30DB100AFCC3A /* MainStoryboard.storyboard */; };
 		B19D4F5B16A30DB100AFCC3A /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19D4F5A16A30DB100AFCC3A /* NGViewController.m */; };
+		B19D4F6216A30E8E00AFCC3A /* tictac400.png in Resources */ = {isa = PBXBuildFile; fileRef = B19D4F6116A30E8E00AFCC3A /* tictac400.png */; };
+		B19D4F6616A477A000AFCC3A /* NGGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B19D4F6516A477A000AFCC3A /* NGGameView.m */; };
+		B19D4F6C16A5732100AFCC3A /* x1.png in Resources */ = {isa = PBXBuildFile; fileRef = B19D4F6B16A5732100AFCC3A /* x1.png */; };
+		B19D4F6E16A5750600AFCC3A /* zero.png in Resources */ = {isa = PBXBuildFile; fileRef = B19D4F6D16A5750600AFCC3A /* zero.png */; };
+		B1B0353916C3F18D0008C064 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B0353816C3F18D0008C064 /* grid.png */; };
+		B1B0354116C40F440008C064 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B0353F16C40F440008C064 /* o.png */; };
+		B1B0354216C40F440008C064 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B0354016C40F440008C064 /* x.png */; };
+		B1DB56A216C7D4B900EF7D3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DB56A016C7D4B900EF7D3E /* Default-568h@2x.png */; };
+		B1DB56A316C7D4B900EF7D3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DB56A116C7D4B900EF7D3E /* Default.png */; };
+		B1DB56AA16CABCD900EF7D3E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DB56A816CABCD900EF7D3E /* icon.png */; };
+		B1DB56AB16CABCD900EF7D3E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DB56A916CABCD900EF7D3E /* icon@2x.png */; };
+		B1DB56AE16CAC05A00EF7D3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DB56AC16CAC05A00EF7D3E /* MainStoryboard.storyboard */; };
+		B1DB56B016CAC8A100EF7D3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DB56AF16CAC8A000EF7D3E /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1705C8A16AA7C5E0008AF5F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B19D4F3A16A30DB100AFCC3A /* Toe Tac Tic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toe Tac Tic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19D4F3E16A30DB100AFCC3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B19D4F4016A30DB100AFCC3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,12 +42,22 @@
 		B19D4F4C16A30DB100AFCC3A /* Toe Tac Tic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Toe Tac Tic-Prefix.pch"; sourceTree = "<group>"; };
 		B19D4F4D16A30DB100AFCC3A /* NGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGAppDelegate.h; sourceTree = "<group>"; };
 		B19D4F4E16A30DB100AFCC3A /* NGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGAppDelegate.m; sourceTree = "<group>"; };
-		B19D4F5016A30DB100AFCC3A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B19D4F5216A30DB100AFCC3A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B19D4F5416A30DB100AFCC3A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B19D4F5716A30DB100AFCC3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B19D4F5916A30DB100AFCC3A /* NGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGViewController.h; sourceTree = "<group>"; };
 		B19D4F5A16A30DB100AFCC3A /* NGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGViewController.m; sourceTree = "<group>"; };
+		B19D4F6116A30E8E00AFCC3A /* tictac400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tictac400.png; sourceTree = "<group>"; };
+		B19D4F6416A477A000AFCC3A /* NGGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGGameView.h; sourceTree = "<group>"; };
+		B19D4F6516A477A000AFCC3A /* NGGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGGameView.m; sourceTree = "<group>"; };
+		B19D4F6B16A5732100AFCC3A /* x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x1.png; sourceTree = "<group>"; };
+		B19D4F6D16A5750600AFCC3A /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zero.png; sourceTree = "<group>"; };
+		B1B0353816C3F18D0008C064 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		B1B0353F16C40F440008C064 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		B1B0354016C40F440008C064 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		B1DB56A016C7D4B900EF7D3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B1DB56A116C7D4B900EF7D3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B1DB56A816CABCD900EF7D3E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B1DB56A916CABCD900EF7D3E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		B1DB56AD16CAC05A00EF7D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B1DB56AF16CAC8A000EF7D3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1705C8B16AA7C5E0008AF5F /* QuartzCore.framework in Frameworks */,
 				B19D4F3F16A30DB100AFCC3A /* UIKit.framework in Frameworks */,
 				B19D4F4116A30DB100AFCC3A /* Foundation.framework in Frameworks */,
 				B19D4F4316A30DB100AFCC3A /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +78,7 @@
 		B19D4F2F16A30DB100AFCC3A = {
 			isa = PBXGroup;
 			children = (
+				B1705C8A16AA7C5E0008AF5F /* QuartzCore.framework */,
 				B19D4F4416A30DB100AFCC3A /* Toe Tac Tic */,
 				B19D4F3D16A30DB100AFCC3A /* Frameworks */,
 				B19D4F3B16A30DB100AFCC3A /* Products */,
@@ -83,11 +106,13 @@
 		B19D4F4416A30DB100AFCC3A /* Toe Tac Tic */ = {
 			isa = PBXGroup;
 			children = (
+				B1DB56AC16CAC05A00EF7D3E /* MainStoryboard.storyboard */,
 				B19D4F4D16A30DB100AFCC3A /* NGAppDelegate.h */,
 				B19D4F4E16A30DB100AFCC3A /* NGAppDelegate.m */,
-				B19D4F5616A30DB100AFCC3A /* MainStoryboard.storyboard */,
 				B19D4F5916A30DB100AFCC3A /* NGViewController.h */,
 				B19D4F5A16A30DB100AFCC3A /* NGViewController.m */,
+				B19D4F6416A477A000AFCC3A /* NGGameView.h */,
+				B19D4F6516A477A000AFCC3A /* NGGameView.m */,
 				B19D4F4516A30DB100AFCC3A /* Supporting Files */,
 			);
 			path = "Toe Tac Tic";
@@ -96,13 +121,21 @@
 		B19D4F4516A30DB100AFCC3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B1DB56AF16CAC8A000EF7D3E /* Default@2x.png */,
+				B1DB56A816CABCD900EF7D3E /* icon.png */,
+				B1DB56A916CABCD900EF7D3E /* icon@2x.png */,
+				B1DB56A016C7D4B900EF7D3E /* Default-568h@2x.png */,
+				B1DB56A116C7D4B900EF7D3E /* Default.png */,
+				B1B0353F16C40F440008C064 /* o.png */,
+				B1B0354016C40F440008C064 /* x.png */,
+				B1B0353816C3F18D0008C064 /* grid.png */,
+				B19D4F6D16A5750600AFCC3A /* zero.png */,
+				B19D4F6B16A5732100AFCC3A /* x1.png */,
+				B19D4F6116A30E8E00AFCC3A /* tictac400.png */,
 				B19D4F4616A30DB100AFCC3A /* Toe Tac Tic-Info.plist */,
 				B19D4F4716A30DB100AFCC3A /* InfoPlist.strings */,
 				B19D4F4A16A30DB100AFCC3A /* main.m */,
 				B19D4F4C16A30DB100AFCC3A /* Toe Tac Tic-Prefix.pch */,
-				B19D4F5016A30DB100AFCC3A /* Default.png */,
-				B19D4F5216A30DB100AFCC3A /* Default@2x.png */,
-				B19D4F5416A30DB100AFCC3A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,10 +193,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19D4F4916A30DB100AFCC3A /* InfoPlist.strings in Resources */,
-				B19D4F5116A30DB100AFCC3A /* Default.png in Resources */,
-				B19D4F5316A30DB100AFCC3A /* Default@2x.png in Resources */,
-				B19D4F5516A30DB100AFCC3A /* Default-568h@2x.png in Resources */,
-				B19D4F5816A30DB100AFCC3A /* MainStoryboard.storyboard in Resources */,
+				B19D4F6216A30E8E00AFCC3A /* tictac400.png in Resources */,
+				B19D4F6C16A5732100AFCC3A /* x1.png in Resources */,
+				B19D4F6E16A5750600AFCC3A /* zero.png in Resources */,
+				B1B0353916C3F18D0008C064 /* grid.png in Resources */,
+				B1B0354116C40F440008C064 /* o.png in Resources */,
+				B1B0354216C40F440008C064 /* x.png in Resources */,
+				B1DB56A216C7D4B900EF7D3E /* Default-568h@2x.png in Resources */,
+				B1DB56A316C7D4B900EF7D3E /* Default.png in Resources */,
+				B1DB56AA16CABCD900EF7D3E /* icon.png in Resources */,
+				B1DB56AB16CABCD900EF7D3E /* icon@2x.png in Resources */,
+				B1DB56AE16CAC05A00EF7D3E /* MainStoryboard.storyboard in Resources */,
+				B1DB56B016CAC8A100EF7D3E /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +218,7 @@
 				B19D4F4B16A30DB100AFCC3A /* main.m in Sources */,
 				B19D4F4F16A30DB100AFCC3A /* NGAppDelegate.m in Sources */,
 				B19D4F5B16A30DB100AFCC3A /* NGViewController.m in Sources */,
+				B19D4F6616A477A000AFCC3A /* NGGameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,10 +233,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B19D4F5616A30DB100AFCC3A /* MainStoryboard.storyboard */ = {
+		B1DB56AC16CAC05A00EF7D3E /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B19D4F5716A30DB100AFCC3A /* en */,
+				B1DB56AD16CAC05A00EF7D3E /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -239,7 +281,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -247,6 +289,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -258,6 +301,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Toe Tac Tic/Toe Tac Tic-Prefix.pch";
 				INFOPLIST_FILE = "Toe Tac Tic/Toe Tac Tic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -269,6 +313,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Toe Tac Tic/Toe Tac Tic-Prefix.pch";
 				INFOPLIST_FILE = "Toe Tac Tic/Toe Tac Tic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -293,6 +338,7 @@
 				B19D4F6016A30DB100AFCC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
